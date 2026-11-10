@@ -1,9 +1,6 @@
----
-title: "Nonsemialgebraicity of Planar Discrete-Time Bilinear Controllability"
-author: "Bruno Yamamoto"
-subtitle: "A short proof of the rational-input obstruction and its real-input corollary"
-date: "8 November 2026"
----
+# Nonsemialgebraicity of Planar Discrete-Time Bilinear Controllability
+
+8 November 2026
 
 ## Abstract
 
@@ -12,7 +9,7 @@ $x_{k+1}=(A+u_kB)x_k$ on $\mathbb R^2\setminus\{0\}$, with arbitrary real $2\tim
 
 ## 1. Main theorems and conventions
 
-Let $X=\mathbb R^2\setminus\{0\}$, and let $A,B\in\mathbb R^{2\times2}$ be arbitrary matrices. Write $\operatorname{Ctrl}(A,B)$ if, for every $\xi,\eta\in X$, there are $N\ge1$ and real controls $u_0,\ldots,u_{N-1}$ satisfying
+Let $X=\mathbb R^2\setminus\{0\}$, and let $A,B\in\mathbb R^{2\times2}$ be arbitrary matrices. Write $\mathrm{Ctrl}(A,B)$ if, for every $\xi,\eta\in X$, there are $N\ge1$ and real controls $u_0,\ldots,u_{N-1}$ satisfying
 
 ```math
 \eta=(A+u_{N-1}B)\cdots(A+u_0B)\xi.
@@ -23,7 +20,7 @@ The positive-length requirement applies even when $\xi=\eta$.
 Define the global-controllability locus for all matrix pairs by
 
 ```math
-\mathcal C=\{(A,B)\in\mathbb R^8:\operatorname{Ctrl}(A,B)\}.
+\mathcal C=\{(A,B)\in\mathbb R^8:\mathrm{Ctrl}(A,B)\}.
 ```
 
 A *fixed finite algebraic formula* is a finite Boolean combination of predicates $p(A,B)=0$, $p(A,B)>0$, or $p(A,B)<0$, where each $p$ is a polynomial in the eight matrix entries with fixed coefficients in $\mathbb R$. We permit arbitrary real coefficients, not just rational ones.
@@ -32,7 +29,7 @@ A *fixed finite algebraic formula* is a finite Boolean combination of predicates
 
 ```math
 \forall A,B\in\mathbb Q^{2\times2},\qquad
-\big((A,B)\in S\iff\operatorname{Ctrl}(A,B)\big).
+\big((A,B)\in S\iff\mathrm{Ctrl}(A,B)\big).
 ```
 
 **Corollary 2 (Real-input nonsemialgebraicity).** The global-controllability locus $\mathcal C$ is not semialgebraic in $\mathbb R^8$.
@@ -71,7 +68,7 @@ $\Gamma(tK)=|t|\Gamma(K)$ for real $t$.
 (2.2)
 
 ```math
-\operatorname{Ctrl}(K^{-1},K^{-1}J)\quad\Longleftrightarrow\quad\Gamma(K)>1.
+\mathrm{Ctrl}(K^{-1},K^{-1}J)\quad\Longleftrightarrow\quad\Gamma(K)>1.
 ```
 
 
@@ -299,7 +296,7 @@ All matrix entries in (5.1) are rational functions of $\varepsilon,a,s$. Wheneve
 (5.2)
 
 ```math
-\boxed{\operatorname{Ctrl}(A,B)\iff s<g(\varepsilon,a).}
+\boxed{\mathrm{Ctrl}(A,B)\iff s<g(\varepsilon,a).}
 ```
 
 For $0<\varepsilon<1/4$ and $a_0<a<1$, the coordinate two-cycle gives $g\ge1$, and $g\le\|K_{\varepsilon,a}\|_2\le1+2\varepsilon<2$. Thus the threshold $s=g(\varepsilon,a)$ lies strictly inside the permitted $s$-interval.
