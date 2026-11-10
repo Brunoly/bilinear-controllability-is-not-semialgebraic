@@ -296,7 +296,7 @@ All matrix entries in (5.1) are rational functions of $\varepsilon,a,s$. Wheneve
 (5.2)
 
 ```math
-\boxed{\mathrm{Ctrl}(A,B)\iff s<g(\varepsilon,a).}
+\mathrm{Ctrl}(A,B)\iff s\lt g(\varepsilon,a).
 ```
 
 For $0<\varepsilon<1/4$ and $a_0<a<1$, the coordinate two-cycle gives $g\ge1$, and $g\le\|K_{\varepsilon,a}\|_2\le1+2\varepsilon<2$. Thus the threshold $s=g(\varepsilon,a)$ lies strictly inside the permitted $s$-interval.
